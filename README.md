@@ -1,7 +1,28 @@
 # SARS-CoV-2 Data Repository for the Ontario Wastewater Surveillance Consortium (OWSC)
 
 ## Description
-This is a repository for SARS-CoV-2 viral load data in Ontario, Canada. The format of the data is the Public Health Environmental Surveillance Open Data Model ([PHES-ODM](https://github.com/Big-Life-Lab/PHES-ODM)). The ODM files are stored in the CSV directory and can be generated from Excel workbooks using the Python script `convert_excel.py`, which utilizes the [pyODM](https://github.com/DeGrootResearchGroup/pyODM) tool. This tool assumes that the Excel sheets are named `<filename_body>_<lab_name>.xlsx` where `<filename_body>` can be any string and `<lab_name>` is the name of the contributing lab. CSV files will be organized in folders according to the `<lab_name>` string.
+This is a repository for SARS-CoV-2 viral load data in Ontario, Canada. The format of the data is the Public Health Environmental Surveillance Open Data Model ([PHES-ODM](https://github.com/Big-Life-Lab/PHES-ODM)). The ODM files are stored in the CSV directory and can be generated from Excel workbooks using the Python script `convert_excel.py`.
+
+## Converting from Excel to CSV
+
+Files can be converted from Excel to CSV using the which utilizes the `convert_excel.py` script, which uses the [pyODM](https://github.com/DeGrootResearchGroup/pyODM) tool. This tool assumes that the Excel sheets are named `<filename_body>_<lab_name>.xlsx` where `<filename_body>` can be any string and `<lab_name>` is the name of the contributing lab. CSV files will be organized in folders according to the `<lab_name>` string. To use this tool, it is recommended to first create a virtual environment and then install required packages from the `requirements.txt` file.
+
+First, create a virtual environment called `env`:
+```
+python -m venv env
+```
+
+Then, activate the environment:
+```
+source env/bin/activate
+```
+
+Finally, install the required packages:
+```
+python -m pip install -r requirements.txt
+```
+
+Note: it is assumed here that `python` points to `python3`; if your system is set up differently, you may have to directly call `python3` in the commands listed above.
 
 ## Contributing
 
