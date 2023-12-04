@@ -1,0 +1,9 @@
+siteID,name,description,type,typeOther,healthRegion,publicHealthDepartment,geoLat,geoLong,notes
+TPKL,TREATMENTPLANTKELLYLAKE,,wwtpMuC,,North East,Public Health Sudbury & Districts,46.46572,-81.03262,
+TPSSM,TREATMENTPLANTSAULTSTEMARIE,,wwtpMuC,,North East,Algoma Public Health,46.5091066030198,-84.2581625205389,
+TPNB,TREATMENTPLANTNORTHBAY,,wwtpMuC,,North East,North Bay Parry Sound District Health Unit,46.3030847851448,-79.456494676952,
+TPKAP,TREATMENTPLANTKAPUSKASING,,wwtpMuC,,North East,Porcupine Health Unit,49.422894,-82.436401,
+TPTIMM,TREATMENTPLANTTIMMINS,,wwtpMuC,,North East,Porcupine Health Unit,48.4934930357613,-81.3558822643456,
+TPMOOS,TREATMENTPLANTMOOSONEE,,wwtpMuC,,North East,Porcupine Health Unit,51.2747874924417,-80.64681910803,
+TPKIRK,TREATMENTPLANT KIRKLAND LAKE,,wwtpMuC,,North East,Timiskaming Health Unit,48.13594944,-80.04110603,added to upload 2022-11-25 in preparation for uploading data
+TPHAIL,TREATMENTPLANT HAILEYBURY,,wwtpMuC,,North East,Timiskaming Health Unit,47.44485327,-79.6301,added to upload 2022-11-25 in preparation for uploading data

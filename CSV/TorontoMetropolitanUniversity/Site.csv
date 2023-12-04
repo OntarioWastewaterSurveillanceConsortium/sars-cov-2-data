@@ -1,0 +1,23 @@
+siteID,name,description,type,typeOther,healthRegion,publicHealthDepartment,geoLat,geoLong,notes
+hr,Humber WWTP,City of Toronto WWTP,wwtpMuC,,Toronto Central,Toronto Public Health,43.6336,-79.4768110001,
+ash,Ashbridges WWTP,City of Toronto WWTP,wwtpMuC,,Toronto Central,Toronto Public Health,43.656892,-79.319407,
+com1a,Upstream-Community 1a,City of Toronto Community/Neighbourhoods,mSwrPpl,,Toronto Central,Toronto Public Health,43.713734,-79.540026,
+com1b,Upstream-Community 1b,City of Toronto Community/Neighbourhoods,mSwrPpl,,Toronto Central,Toronto Public Health,43.730131,-79.549578,
+com2a,Upstream-Community 2a,City of Toronto Community/Neighbourhoods,mSwrPpl,,Toronto Central,Toronto Public Health,43.73584,-79.495832,
+com2b,Upstream-Community 2b,City of Toronto Community/Neighbourhoods,mSwrPpl,,Toronto Central,Toronto Public Health,43.76187,-79.508388,
+com4,Upstream-Community 4,City of Toronto Community/Neighbourhoods,mSwrPpl,,Toronto Central,Toronto Public Health,43.656811,-79.53878,
+com5,Upstream-Community 5,City of Toronto Community/Neighbourhoods,mSwrPpl,,Toronto Central,Toronto Public Health,43.63559,-79.506655,
+fac1,Upstream-Facility 1 (Providence Healthcare; two LTC wings + hospital wings),City of Toronto LTCF,ltcf,,Toronto Central,Toronto Public Health,43.712801,-79.284678,fac1 was renamed to fac1a on 2021Jun08
+fac1a,Upstream-Facility 1 (Providence Healthcare; two LTC wings + hospital wings),City of Toronto LTCF,ltcf,,Toronto Central,Toronto Public Health,43.712801,-79.284678,
+fac1b,Upstream-Facility 1 (Providence Healthcare; only two LTC wings),City of Toronto LTCF,ltcf,,Toronto Central,Toronto Public Health,43.712801,-79.284678,
+fac2,Upstream-Facility 2 (Sunnybrook Veteran's Centre),City of Toronto LTCF,ltcf,,Toronto Central,Toronto Public Health,43.723433,-79.37532,fac2 was renamed to fac2a on 2021Jun29; Site removed 
+fac2a,Upstream-Facility 2 (Sunnybrook Veteran's Centre),City of Toronto LTCF,ltcf,,Toronto Central,Toronto Public Health,43.723433,-79.37532,Site removed 
+fac2b,Upstream-Facility 2 (Sunnybrook Veteran's Centre; west side of LTC wing L),City of Toronto LTCF,ltcf,,Toronto Central,Toronto Public Health,43.723433,-79.37532,
+fac2c,Upstream-Facility 2 (Sunnybrook Veteran's Centre; all of LTC wings L),City of Toronto LTCF,ltcf,,Toronto Central,Toronto Public Health,43.723433,-79.37532,
+fac3,Upstream-Facility 3 (Women's Residence),City of Toronto Shelter,other,homeless shelter,Toronto Central,Toronto Public Health,43.651766,-79.403619,
+fac4,Upstream-Facility 4 (St. Michael's Hospital),City of Toronto Hospital,other,hospital,Toronto Central,Toronto Public Health,43.655031,-79.369309,
+fac5,Upstream-Facility 5 (Seaton House),City of Toronto Shelter,other,homeless shelter,Toronto Central,Toronto Public Health,43.659217,-79.373949,
+fac6,Upstream-Facility 6 (Scarborough Village Residence),City of Toronto Shelter,other,homeless shelter,Toronto Central,Toronto Public Health,43.734151,-79.223456,
+fac7,Upstream-Facility 7 (International Living/Learning Centre),Ryerson University Student Residence,uCampus,,Toronto Central,Toronto Public Health,,,
+fac8,Upstream-Facility 8 (Daphne Cockwell Complex),Ryerson University Student Residence,uCampus,,Toronto Central,Toronto Public Health,,,
+fac9,Upstream-Facility 9 (Bob Rumball Centre of Excellence for the Deaf),,,,Toronto Central,Toronto Public Health,,,

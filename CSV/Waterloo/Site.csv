@@ -1,0 +1,9 @@
+siteID,name,description,type,typeOther,healthRegion,publicHealthDepartment,geoLat,geoLong,notes
+GE BOOTH,GE Booth,Peel Region - GE Booth WWTP,wwtpMuS,,Mississauga Halton,Peel Public Health,43.579908018714,-79.5489395120803,
+CLARKSON,Clarkson,Peel Region - Clarkson WWTP,wwtpMuS,,Mississauga Halton,Peel Public Health,43.4959859381263,-79.619890344722,
+KITCHENER,Kitchener,Waterloo-Kitchener WWTP,wwtpMuS,,Waterloo Wellington,Region of Waterloo Public Health and Emergency Services,43.3995934678841,-80.4232790229372,
+WATERLOO,Waterloo,Waterloo-Waterloo WWTP,wwtpMuS,,Waterloo Wellington,Region of Waterloo Public Health and Emergency Services,43.4878155638942,-80.5064206880622,
+GALT,Galt,Waterloo-Galt WWTP,wwtpMuS,,Waterloo Wellington,Region of Waterloo Public Health and Emergency Services,43.340874769164,-80.3147231320753,
+HUMBER AMF,Air Management Facility,York-Air Management Facility,other,Odour control,Central,York Region Public Health,43.7546219648919,-79.626400650458,
+LESLIE,Leslie Street,York-Leslie Street,pStat,,Central,York Region Public Health,43.812696,-79.373694,
+WARDEN,Warden And 407,York - Warden,mSwrPpl,,Central,York Region Public Health,43.8456555166987,-79.3350314853532,

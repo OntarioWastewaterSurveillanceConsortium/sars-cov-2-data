@@ -1,0 +1,12 @@
+assayMethodID,instrumentID,name,version,summary,referenceLink,date,sampleSizeL,inhibition,surrogateRecovery,mCF,mESV,sloq,slod,unit,unitOther
+FILT,RTqPCR,Filtration,1.0,Filtration w/ 0.45 µM MCE + cheesecloth,"Bivins et al., 2020",2021-04-01,0.2,,,,,,,,
+PEG.1,RTqPCR,PEG,1.0,PEG/NaCl floculation (o/n) + centrifuge - protocol for N1,,2021-04-01,0.35,,,,,,1.26,other,gene copies/reaction
+PEG.2,RTqPCR,PEG,2.0,PEG/NaCl floculation (o/n) + centrifuge - protocol for N2 ,,2021-04-01,0.35,,,,,,1.29,other,gene copies/reaction
+PEG.3,RTqPCR,PEG,3.0,PEG/NaCl floculation (o/n) + centrifuge - protocol for PMMV,,2021-04-01,0.35,,,,,,1.26,other,gene copies/reaction
+PSQT,RTqPCR,Passive sampler_Q-tips,1.0,1 Q-tips packed in 1 bead-beating tube,Protocol from David McCarthy at Monash University,2021-04-01,0.0,,,,,,,,
+PSMF,RTqPCR,Passive sampler_membrane filter,1.0,1 membrane filters packed in 1 bead-beating tube,Protocol from David McCarthy at Monash University,2021-04-01,0.0,,,,,,,,
+PSG,RTqPCR,Passive sampler_gauze,1.0,"1 gauze massaged  in PBS/Tween80/anti-foam, centrifuged, resuspended in lysis buffer",Modified protocol from David McCarthy at Monash University,2021-04-01,0.0,,,,,,,,
+PSQT_2,RTqPCR,Passive sampler_Q-tips,1.0,2 Q-tips packed in 1 bead-beating tube,Protocol from David McCarthy at Monash University,2021-04-01,0.0,,,,,,,,
+PSMF_2,RTqPCR,Passive sampler_membrane filter,1.0,2 membrane filters packed in 1 bead-beating tube,Protocol from David McCarthy at Monash University,2021-04-01,0.0,,,,,,,,
+PSG_3,RTqPCR,Passive sampler_gauze,1.0,"1 gauze massaged  in PBS/Tween80/anti-foam, centrifuged, resuspended in lysis buffer",Modified protocol from David McCarthy at Monash University,2021-04-01,0.0,,,,,,,,
+PGM,RTqPCR,Passive sampler_gauze_magnetic,,"1 gauze massaged in 50 mL PBS/Tween80/anti-foam, pelleted with magnetic beads on the magnetic racks and resuspended in lysis buffer",,2022-05-01,0.0,,,,,,,,

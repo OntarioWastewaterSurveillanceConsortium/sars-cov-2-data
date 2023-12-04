@@ -1,0 +1,4 @@
+assayMethodID,instrumentID,name,version,summary,referenceLink,date,sampleSizeL,inhibition,surrogateRecovery,mCF,mESV,sloq,slod,unit,unitOther
+Ryerson_Assay_1,Ryerson_Instrument_2,Ryerson_SOP,Version_1,"Standard operating protocol for processing raw sewage samples, RNA extraction and RT-qPCR.",..\ryerson_ww_surv_sop.pdf,2021-04-07,0.2,,,200,2,2.5,1,gcMl,
+Ryerson_Assay_2,Ryerson_Instrument_3,Ryerson_SOP,Version_2,"Standard operating protocol for processing raw sewage samples, RNA extraction and RT-qPCR.",ryerson_ww_surv_sop_v2.pdf,2021-05-05,0.2,,,200,2,2.5,1,gcMl,
+Ryerson_Assay_3,Ryerson_Instrument_3,Ryerson_SOP,Version_3,"Standard operating protocol for processing raw sewage samples, RNA extraction and RT-qPCR.",ryerson_ww_surv_sop_v3.pdf,2021-07-19,0.2,,,200,2,2.5,1,gcMl,

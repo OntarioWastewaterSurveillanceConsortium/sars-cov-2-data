@@ -1,0 +1,4 @@
+instrumentID,name,model,description,referenceLink,type,typeOther
+Ryerson_Instrument_1,Ultrasonic water level sensor,SmartCover SmartLevel,Site measure of water level at upstream sites,https://smartcoversystems.com/,other,Field deployed ultrasonic water level sensor
+Ryerson_Instrument_2,qPCR,BioRad CFX96,Lab measure of gene counts using PCR,https://www.bio-rad.com/en-ca/product/cfx96-touch-real-time-pcr-detection-system?ID=LJB1YU15,lab,
+Ryerson_Instrument_3,qPCR,BioRad CFX OPUS 384,Lab measure of gene counts using PCR,https://www.bio-rad.com/en-ca/sku/12011452-cfx-opus-384-real-time-pcr-system?ID=12011452,lab,
