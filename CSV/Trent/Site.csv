@@ -1,0 +1,18 @@
+siteID,name,description,type,typeOther,healthRegion,publicHealthDepartment,geoLat,geoLong,notes
+PTBO_WWTF,Peterborough,Peterborough Wastewater Treatment Plant,wwtpMuC,,Central East,Peterborough Public Health,44.2766589,-78.3180705,
+Belleville,Belleville,Belleville Water Pollution Control Plant,wwtpMuC,,South East,Hastings Prince Edward Public Health,44.1582541,-77.3728508,
+Millbrook,Millbrook,Millbrook Wastewater Treatment Plant,wwtpMuC,,Central East,Peterborough Public Health ,44.156509259833,-78.4448075461585,
+Fleming_PTBO,Fleming_Peterborough_Campus,Fleming College - campus location - Peterborough,uCampus,,Central East,Peterborough Public Health,44.2683579740912,-78.3723656571015,
+Princess_Gardens_(Charlotte_st),Princess_Gardens_(Charlotte_st),Retirement home - Peterborough - Location #3 Princess Gardens Retirement Residence,ltcf,,Central East,Peterborough Public Health,44.3039186,-78.3173027,
+Royal_Gardens_(Clonsilla_ave),Royal_Gardens_(Clonsilla_ave),Retirement home - Peterborough - Location #1 Royal Gardens Retirement Residence,ltcf,,Central East,Peterborough Public Health,44.2939551,-78.3402507,
+Canterbury_Gardens_(Sherbrooke),Canterbury_Gardens_(Sherbrooke),Retirement home - Peterborough - Location #2 Cantebury Gardens Retirement Residence,ltcf,,Central East,Peterborough Public Health,44.2928215,-78.3605081,
+Sherbrooke_Heights,Sherbrooke_Heights_(Clonsilla_ave),Retirement home - Peterborough - Location #4 Sherbrooke Heights Retirement Residence,ltcf,,Central East,Peterborough Public Health,44.2923173766697,-78.3621929875538,
+Trent_Blackburn,Trent_WestBank_Blackburn,"Trent University Campus - Location#2 Sewershed - Blackburn Site, covers all of West Bank Side of Campus",uCampus,,Central East,Peterborough Public Health,44.3533935,-78.2955977,
+Trent_EastBank_BikeTrail,Trent_EastBank_BikeTrail,"Trent University Campus - Location#3 Sewershed - Bike Trail Site, covers all of East Bank Side of Campus",uCampus,,Central East,Peterborough Public Health,44.3548519,-78.2900311,
+Trent_North_Residence,Trent_North_Annex_Residences_(Water St),Trent University 3 residence buildings north of Water Street,uCampus,,Central East,Peterborough Public Health,44.3540127,-78.2979066,
+Trent_Champlain_Annex,Trent_Champlain_Annex,Trent University Campus - Location#1 Sewershed - Residence #5 (Housing Summer Students),uCampus,,Central East,Peterborough Public Health,44.35211567,-78.29989804,"Mostly funded by Trent-U, for one season it was used instead of the North Annex site on the MECP funding. Data outside of that time period is to be deleted"
+Lakefield,Lakefield ,Lakefield Wastewater Treatment Plant,wwtpMuC,,Central East,Peterborough Public Health,44.4177599494967,-78.2597617693006,
+Havelock,Havelock,Havelock wastewater treatment plant,wwtpMuC,,Central East,Peterborough Public Health,44.3763478160272,-77.9800803331077,"Industrial Drive, Norwood. Address on website is town office"
+Norwood,Norwood,Norwood wastewater treatment plant,wwtpMuC,,Central East,Peterborough Public Health,44.4224943116943,-77.8779176867347,Address on website is town office. Plant is south of town
+Trent_Champlain_College,Trent_Champlain_College,Champlain College at Trent University,uCampus,,Central East,Peterborough Public Health,44.3584991025808,-78.2909023607874,Reported directly to Trent-U. Part of the west bank sampling sites
+Trent_OC_Residence,Trent_OC_Residence,Ontonabee College at Trent University,uCampus,,Central East,Peterborough Public Health,44.3576082690122,-78.2860810200558,"Reported directly to Trent-U. Part of the east bank sampling sites, used occasionally as part of the MECP campus funded sites. This is a large contributor to the east-bank signal, as it contains a residence and common dining areas. "

@@ -1,0 +1,2 @@
+assayMethodID,instrumentID,name,version,summary,referenceLink,date,sampleSizeL,inhibition,surrogateRecovery,mCF,mESV,sloq,slod,unit,unitOther
+CoV-2 N1/N2,QuantStudio 5,Applied Biosystems QuantStudio 5 Real-Time PCR,5,Lab measure of gene counts using qPCR,https://www.thermofisher.com/order/catalog/product/A34322?ca&en#/A34322?ca&en,,0.5,,,,0.08,,360,gcL,

@@ -1,0 +1,17 @@
+siteID,name,description,type,typeOther,healthRegion,publicHealthDepartment,geoLat,geoLong,notes
+TB,Thunder Bay Water Pollution Control Plant,City of Thunder Bay WWTP,wwtpMuS,,North West,Thunder Bay District Health Unit,48.39805,-89.22698,"due to the age of the City’s infrastructure, there are some combined lines throughout the City but they make up a small fraction of the volume received at WPCP"
+LPCC,Leamington Pollution Control Centre,Municipality of Leamington WWTP,wwtpMuC,,Erie St. Clair,Windsor-Essex County Health Unit ,42.03444,-82.58854,
+LA,Denis St. Pierre Water Pollution Control Plant,Municipality of Lakeshore WWTP,wwtpMuS,,Erie St. Clair,Windsor-Essex County Health Unit ,42.290829,-82.733827,
+LRWRP,Lou Romano Water Reclamation Plant,City of Windsor WWTP,wwtpMuC,,Erie St. Clair,Windsor-Essex County Health Unit ,42.28368,-83.08508,
+LRPCP,Little River Pollution Control Plant,City of Windsor WWTP,wwtpMuC,,Erie St. Clair,Windsor-Essex County Health Unit ,42.33034,-82.92696,
+AM,Amherstburg Wastewater Treatment Plant,Town of Amherstburg WWTP,wwtpMuS,,Erie St. Clair,Windsor-Essex County Health Unit ,42.09398,-83.10837,
+GREEN,Greenway Wastewater Treatment Centre,City of London WWTP,wwtpMuC,,South West,Middlesex-London Health Unit,42.97605,-81.28137,plants take some combination of industrial and residential.
+ADELAIDE,Adelaide Wastewater Treatment Plant,City of London WWTP,wwtpMuC,,South West,Middlesex-London Health Unit,43.01539,-81.2461,plants take some combination of industrial and residential.
+OXFORD,Oxford Pollution Control Plant,City of London WWTP,wwtpMuC,,South West,Middlesex-London Health Unit,42.96853,-81.34263,plants take some combination of industrial and residential.
+VAUX,Vauxhall Pollution Control Plant,City of London WWTP,wwtpMuC,,South West,Middlesex-London Health Unit,42.97445,-81.20567,plants take some combination of industrial and residential.
+POTTS,Pottersburg Wastewater Treatment Plant,City of London WWTP,wwtpMuC,,South West,Middlesex-London Health Unit,42.97401,-81.17973,plants take some combination of industrial and residential.
+NB,North Bay Wastewater Treatment Plant,City of North Bay WWTP,wwtpMuS,,North East,North Bay Parry Sound District Health Unit,46.3027,-79.46231,
+SOO,Sault Ste. Marie East End Wastewater Treatment Plant,City of Sault Ste. Marie WWTP,wwtpMuS,,North East,Algoma Public Health,46.50557,-84.25912,infiltration results in fluctuations of flow especially during rain and snow melt events
+Alumni,UWindsor Alumni Hall Sewer Access,Univ of Windsor camus sewer access,school,,Erie St. Clair,Windsor-Essex County Health Unit ,42.30288,-83.06328,
+MQ Blank,Ultrapure water blank,Ultrapure water blank,other,,,,42.30541,-83.06819,
+CHWW,Chatham Water Pollution Control Plant,City of Chatham WWTP,wwtpMuC,,Erie St. Clair,Chatham-Kent Public Health,42.3896919078068,-82.214970767503,

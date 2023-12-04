@@ -1,0 +1,4 @@
+instrumentID,name,model,description,referenceLink,type,typeOther
+HSNRI_qPCR_1,Agilent Aria,AriaMX,AriaMX Real-time PCR system,https://www.agilent.com/en/product/real-time-pcr-(qpcr)/real-time-pcr-(qpcr)-instruments/ariamx-real-time-pcr-system-software-pc/ariamx-real-time-pcr-system-232711,lab,
+HSNRI_qPCR_2,Qiagen Qiaquant,Qiaquant96 5plex,Qiaquant Real-time PCR system,https://www.qiagen.com/us/products/discovery-and-translational-research/pcr-qpcr-dpcr/qpcr-assays-and-instruments/pcr-instruments/qiaquant/,lab,
+HSNRI_dPCR1,Qiagen Qiacuity,Qiaquity 4,Qiaquity digital PCR system,https://www.qiagen.com/ca/products/instruments-and-automation/pcr-instruments/qiacuity-digital-pcr-system?catno=911042,lab,

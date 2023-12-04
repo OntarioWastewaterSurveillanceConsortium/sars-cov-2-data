@@ -1,0 +1,7 @@
+instrumentID,name,model,description,referenceLink,type,typeOther
+qPCR_7500,qPCR 7500,ABI 7500,real-time PCR machine,,Lab,
+qPCR_SOP_F1,qPCR SOP F1,ABI StepOnePlus,real-time PCR machine,,Lab,
+qPCR_SOP_F2,qPCR SOP F2,ABI StepOnePlus,real-time PCR machine,,Lab,
+qPCR_SOP_CK,qPCR SOP CK,ABI StepOnePlus,real-time PCR machine,,Lab,
+qpCR_Opus,qpCR Opus,Bio-Rad OPUS,real-time PCR machine,,Lab,
+qPCR_Q5,qPCR Q5,ABI Quanstudio5,"real-time PCR machine, May2021",,Lab,

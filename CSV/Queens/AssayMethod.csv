@@ -1,0 +1,29 @@
+assayMethodID,instrumentID,name,version,summary,referenceLink,date,sampleSizeL,inhibition,surrogateRecovery,mCF,mESV,sloq,slod,unit,unitOther
+,,,,"Primers: Desired Conc: 1 uM
+Probe:  Desired Conc: 0.5 uM
+Supermix: 2.5 uL 
+RNA template: 5uL 
+Total: 10 uL per reaction into each well
+Thermal Cycle: as descibed by CDC ",https://www.fda.gov/media/134922/download,2021-04-29,0.15,NO,10-20%,300,6,,0.067,gcMl,
+,,,,"Primers: Desired Conc. 0.8 uM
+Probe:  Desired Conc. 0.8 uM
+Supermix: 2.5 uL (1:4) 
+Total: 10 uL per reaction (per well)
+Thermal Cycle as N1",https://www.fda.gov/media/134922/download,2021-04-29,0.15,NO,10-20%,300,6,,0.067,gcMl,
+,,,,"Primers: Desired Conc. 0.8 uM
+Probe:  Desired Conc. 0.8 uM
+Supermix: 2.5 uL (1:4) 
+Total: 10 uL per reaction (per well)
+Thermal Cycle as N1",,2021-05-04,,NO,10-20%,300,6,97.62669686690083,,other,copies per well
+,,,,"Primers: Desired Conc: 1 uM
+Probe:  Desired Conc: 0.5 uM
+Supermix: 2.5 uL 
+RNA template: 5uL 
+Total: 10 uL per reaction into each well
+Thermal Cycle: as descibed by CDC ",https://www.fda.gov/media/134922/download,2021-04-29,,NO,10-20%,300,6,,4.1,other,copies per well
+,,,,"Primers: Desired Conc: 1 uM
+Probe:  Desired Conc: 0.5 uM
+Supermix: 2.5 uL 
+RNA template: 5uL 
+Total: 10 uL per reaction into each well
+Thermal Cycle: as descibed by CDC ",https://www.fda.gov/media/134922/download,2021-05-15,,NO,10-20%,300,6,21.90646022000245,,other,copies per well

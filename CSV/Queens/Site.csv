@@ -1,0 +1,10 @@
+siteID,name,description,type,typeOther,healthRegion,publicHealthDepartment,geoLat,geoLong,notes
+RV,Ravensview,City of Kingston,wwtpMuC,,Central East,"Kingston, Frontenac and Lennox & Addington Public Health",44.241252,-76.4206017,
+CB,Cataraqui bay,City of Kingston,wwtpMuS,,Central East,"Kingston, Frontenac and Lennox & Addington Public Health",44.214819,-76.550723,
+KS,King street,Kingston Central distn,pStat,,Central East,"Kingston, Frontenac and Lennox & Addington Public Health",44.2226685,-76.4933846,
+CW,Cornwall,City of Cornwall,wwtpMuS,,Central East,Eastern Ontario Health Unit,45.029258,-74.677918,
+LT,Loyalist,Loyalist Township,wwtpMuS,,Central East,"Kingston, Frontenac and Lennox & Addington Public Health",44.233127,-76.660988,
+CM,Casselman,Eastern Ontario,pStat,,Central East,Eastern Ontario Health Unit,45.316816,-75.091317,
+HB,Hawkesbury,Eastern Ontario,wwtpMuS,,Central East,Eastern Ontario Health Unit,45.611676,-74.5960906,
+WB,Wallaceburg,Southwestern Ontario,wwtpMuS,,South West,Chatham-Kent Public Health,"42.581280154022174, ",-82.3894482144119,
+MB,Morrisburg,Eastern Ontario,wwtpMuS,,Central East,Eastern Ontario Health Unit,44.899996,-75.16843,

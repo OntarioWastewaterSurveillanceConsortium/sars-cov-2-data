@@ -1,0 +1,17 @@
+siteID,name,description,type,typeOther,healthRegion,publicHealthDepartment,geoLat,geoLong,notes
+Site O100,Residence (Leeds),Carleton University,uCampus,,Champlain,Ottawa Public Health,45.388462,-75.697721,
+Site O200,Maintenance Hole 131,Carleton University,uCampus,,Champlain,Ottawa Public Health,45.386423,-75.692212,2.0
+Site O400,General,City of Ottawa WWTP,hosptl,,Champlain,Ottawa Public Health,45.404003,-75.657009,
+Site O500,March Rd,City of Ottawa WWTP,mSwrPpl,,Champlain,Ottawa Public Health,45.342078,-75.902072,
+Site O600,Acres,City of Ottawa WWTP,mSwrPpl,,Champlain,Ottawa Public Health,45.344602,-75.818218,
+Site O700,Hemlock,City of Ottawa WWTP,mSwrPpl,,Champlain,Ottawa Public Health,45.45376,-75.6704,
+Site O800,10th line,City of Ottawa WWTP,mSwrPpl,,Champlain,Ottawa Public Health,45.44551,-75.4795,
+Site O900,Residence 34,Carleton University,uCampus,,Champlain,Ottawa Public Health,45.385612,-75.697003,
+Site O1000,Residence 6-1A,Carleton University,uCampus,,Champlain,Ottawa Public Health,45.386537,-75.697614,1.0
+Site O1100,Brockville,Brockville WPCC,wwtpMuS,,South East,"Leeds, Grenville & Lanark District Health Unit",44.60339,-75.66352,3.0
+Site O1200,North Grenville,Kemptville WPCP,wwtpMuS,,Champlain,"Leeds, Grenville & Lanark District Health Unit",45.0286067,-75.6446447,4.0
+Site O1300,Pembroke,Pembroke WWTP,wwtpMuS,,Champlain,Renfrew County and District Health Unit,45.8250081,-77.0834319,6.0
+Site O1500,Athletics,Carleton University,uCampus,,Champlain,Ottawa Public Health,45.386228,-75.693087,7.0
+Site O1600,Residence 6-1,Carleton University,uCampus,,Champlain,Ottawa Public Health,45.386545,-75.697322,0.0
+Site O1700,Smiths Falls,Smiths Falls Water Pollution Control Plant (WPCP),wwtpMuS,,Champlain,"Leeds, Grenville & Lanark District Health Unit",44.89322,-76.00088,8.0
+Site O1800,Maintenance Hole 151-6,Carleton University,uCampus,,Champlain,Ottawa Public Health,45.3827936345157,-75.695835274738,10.0

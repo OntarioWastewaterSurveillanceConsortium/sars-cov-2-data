@@ -1,0 +1,2 @@
+assayMethodID,instrumentID,name,version,summary,referenceLink,date,sampleSizeL,inhibition,surrogateRecovery,mCF,mESV,sloq,slod,unit,unitOther
+,,,,,https://www.dropbox.com/s/c891t33t5y67uz3/COVID%20WW%202020%20RNA%20Extraction%20protocol-rev.02.pdf?dl=0 ,2021-03-24,0.03,pMMoV,HCoV-229E,75,1.5,3,5.5,gcMl,
