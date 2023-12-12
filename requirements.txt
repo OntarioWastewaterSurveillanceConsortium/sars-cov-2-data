@@ -2,10 +2,10 @@ Cerberus==1.3.4
 DateTime==5.3
 et-xmlfile==1.1.0
 numpy==1.26.2
-odm_validation @ git+https://github.com/Big-Life-Lab/PHES-ODM-Validation.git@94186a61a746ebea27b622efcac13414cd0146fb
+odm_validation @ git+https://github.com/Big-Life-Lab/PHES-ODM-Validation.git@9863f9a37505008d26d9716a0bd225a1bf021c05
 openpyxl==3.1.2
 pandas==2.1.3
-pyODM @ git+https://github.com/DeGrootResearchGroup/pyODM.git@2a752807ddda3c536355a36fb3f33e0303dcf2c1
+pyODM @ git+https://github.com/DeGrootResearchGroup/pyODM.git@24a4f09e409985fe2e69d44d3244f774466faa72
 python-dateutil==2.8.2
 pytz==2023.3.post1
 PyYAML==6.0.1
@@ -13,5 +13,6 @@ scipy==1.11.4
 semver==3.0.0.dev3
 six==1.16.0
 toml==0.10.2
+typing_extensions==4.8.0
 tzdata==2023.3
 zope.interface==6.1
