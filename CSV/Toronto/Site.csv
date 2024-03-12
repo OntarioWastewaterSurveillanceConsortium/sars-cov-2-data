@@ -1,0 +1,13 @@
+siteID,name,description,type,typeOther,healthRegion,publicHealthDepartment,geoLat,geoLong,notes
+AB,Ashbridge Treatment Plant,Ashbridge Treatment Plant,wwtpMuS,,Toronto Central,Toronto Public Health,43.6568923,-79.319407,
+NT,North Toronto Treatment Plant,North Toronto Treatment Plant,wwtpMuS,,Toronto Central,Toronto Public Health,43.6991178,-79.356376,
+HC,Highland Creek Treatment Plant,Highland Creek Treatment Plant,wwtpMuS,,Toronto Central,Toronto Public Health,43.7664544,-79.148966,
+GHN,Graduate House North University of Toronto,Graduate House North University of Toronto,uCampus,,Toronto Central,Toronto Public Health,43.6638,-79.4016,
+GHS,Graduate House South University of Toronto,Graduate House South University of Toronto,uCampus,,Toronto Central,Toronto Public Health,43.6638,-79.4016,
+89C,89 Charles University of Toronto,89 Charles University of Toronto,uCampus,,Toronto Central,Toronto Public Health,43.66756,-79.39191,
+SKY02,Burlington Skyway wastewater treatmen Plant,Burlington Skyway wastewater treatmen Plant,wwtpMuS,,Mississauga Halton,Halton Region Public Health,43.30894314,-79.80174979,
+OSW02,Oakville Southwest Wastewater Treatment Plant (West Oakville),Oakville Southwest Wastewater Treatment Plant (West Oakville),wwtpMuS,,Mississauga Halton,Halton Region Public Health,43.4133132,-79.69387381,
+MH02,Mid-Halton Wastewater treatment plant (North Oakville and Milton),Mid-Halton Wastewater treatment plant (North Oakville and Milton),wwtpMuS,,Mississauga Halton,Halton Region Public Health,43.42046364,-79.73151735,
+ACT02,Acton Wastewater Treatment Plant,Acton Wastewater Treatment Plant,wwtpMuS,,Mississauga Halton,Halton Region Public Health,43.62868537,-80.02217657,
+GT02,Georgetown wastewater treatment plant,Georgetown wastewater treatment plant,wwtpMuS,,Mississauga Halton,Halton Region Public Health,43.63910641,-79.87843564,
+OSE02,Oakville Southeast Wastewater Treatment Plant (East Oakville),Oakville Southeast Wastewater Treatment Plant ()West Oakville),wwtpMuS,,Mississauga Halton,Halton Region Public Health,43.4821231,-79.6312215,
