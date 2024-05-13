@@ -1,0 +1,218 @@
+---
+title: "OWSC WSI SARS-CoV-2 VOC Heatmapping Project"
+author: "Nathan T. Ramsay"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+# Library
+
+```{r setup, include=TRUE, message=FALSE, warning=FALSE}
+# Default Chunk Options ---------------------------------
+knitr::opts_chunk$set(
+	echo = TRUE,
+	warning = FALSE,
+	message = FALSE
+	)
+
+# Package Library ---------------------------------------
+library(here)
+library(pacman)
+source(file.path(here(), "inputs", "library.R"))                       # My most used packages
+
+# Additional Inputs -------------------------------------
+source(file.path(here(), "inputs", "voc_dates.R"))                     # Approximate VOC start dates
+source(file.path(here(), "inputs", "colour_palettes.R"))               # Custom colour palettes
+source(file.path(here(), "inputs", "custom_plot_theme.R"))             # Custom ggplot themes
+source(file.path(here(), "inputs", "keySites.R"))                      # List of Ontario sites
+
+# Custom Scripts ----------------------------------------
+source(file.path(here(), "scripts", "add_voc_column.R"))               # Script to add VOC column
+source(file.path(here(), "scripts", "process_wsi_data.R"))             # WSI data processing script
+source(file.path(here(), "scripts", "wsi_axis_order.R"))               # Heatmap axis ordering
+source(file.path(here(), "scripts", "site_colour_generator_by_lab.R")) # Heatmap y-axis colour coding
+source(file.path(here(), "scripts", "heatmap_generator.R"))            # Heatmap generator
+
+# PLOT SAVING SETTINGS ----------------------------------
+ggwidth  <- 24
+ggheight <- 15
+```
+
+# Data Synthesis
+
+## Master Data
+
+Grabs the downloaded raw data from the [\*\*\*OntarioWastewater Surveillance Initiative Data and Visualization Hub.\*\*\*]{.underline} \-\-- <https://wastewater-surveillance-ontcovidww-hub.hub.arcgis.com>
+
+```{r master_data, message=FALSE, warning=FALSE}
+# Inputs ------------------------------------------------
+  # Path to the WSI raw data
+  data_path <- file.path("C:/RProjects/data") 
+  
+  # Start and end dates for the data
+  start_date <- as.Date("2021-01-01", format = "%Y-%m-%d")
+  end_date   <- as.Date("2023-03-31", format = "%Y-%m-%d")
+
+  
+# Generate Master Data ----------------------------------
+  master_data <- 
+    process_wsi_data(data_path, start_date, end_date) %>%
+    arrange(sampleDate)
+    head(master_data)
+  
+# Working Dataframe -------------------------------------
+  working_data <- master_data
+```
+
+## Working Data
+
+### Data Cleansing
+
+#### Outlier Removal
+
+```{r}
+working_data <- working_data %>%
+  filter(cpcp <= 1)
+```
+
+#### Column Manipulations
+
+```{r}
+working_data <- working_data %>% 
+  select(sampleDate, VOC, siteDesc, lab, PHR, cpcp) %>%
+  mutate(
+    sampleWeek = as.Date(paste(
+      year(sampleDate), week(sampleDate), 0, sep = "-"), "%Y-%U-%w"),
+    
+    PHR = factor(PHR, 
+      levels = c("North West", 
+                 "North East", 
+                 "East", 
+                 "Toronto", 
+                 "Central West",
+                 "Central East", 
+                 "South West")))
+```
+
+### Calculations
+
+#### 7-day Rolling and Weekly Average cpcp
+
+```{r}
+working_data <- working_data %>%
+# Rolling Avg cpcp --------------------------------------
+  group_by(siteDesc) %>% 
+  mutate(
+    weekly_avg_cpcp = rollmean(
+      cpcp, 
+      k = 7, 
+      align = 'center', 
+      fill = NA, 
+      na.rm = TRUE)) %>%
+
+# Weekly Average cpcp -----------------------------------
+  group_by(siteDesc, sampleWeek) %>%
+  mutate(weekly_avg_cpcp = mean(weekly_avg_cpcp, na.rm = TRUE))
+```
+
+#### % of Maximum cpcp
+
+```{r working_data}
+working_data <- working_data %>%
+  group_by(VOC, siteDesc) %>%
+  mutate(
+# Max Avg cpcp ------------------------------------------
+  max_avg_cpcp_plant = max(weekly_avg_cpcp, na.rm = TRUE),
+
+# Percent of Max Avg cpcp -------------------------------         
+  per_max_cpcp = weekly_avg_cpcp/max_avg_cpcp_plant*100) %>%
+  ungroup()
+  head(working_data)
+```
+
+# Plot Generation
+
+## Y-Axis Order and Colouring
+
+This section determines the colouring and ordering of sites shown on the y-axis based on the ***most recent testing institution*** (i.e., the most recent institution appearing in the ***"lab"*** column of the data as some sites may have switched testing institutions during the pandemic).
+Sites are coloured according to the ***Ontario Health Region*** (North, Central, East, West) associated with their respective testing institutions (***"lab"***).
+
+```{r}
+# Generate the y-axis site ordering for the heatmap;
+  site_order <- 
+    wsi_axis_order(working_data, "lab") %>% 
+    arrange(arrange_var, siteDesc) %>%
+    print()
+
+# Generate the y-axis site colouring;  
+  lab_pal <- 
+    site_colour_generator_by_lab(working_data, "lab") %>% 
+    arrange(lab, siteDesc) %>%
+    print()
+```
+
+## Base Plot
+
+```{r fig.height=, fig.width=22, message=FALSE, warning=FALSE}
+# Remove NML ---------------------------------
+  working_data <- working_data[working_data$lab != "NML", ]
+  site_order <- site_order[site_order$arrange_var != "NML", ]
+  lab_pal <- lab_pal[lab_pal$lab != "NML", ]
+
+# PLOT GENERATION ----------------------------
+  heatmap_plot <- heatmap_generator(working_data)
+  print(heatmap_plot)
+  
+# PLOT SAVING --------------------------------
+  file_path <- 
+    "G:/My Drive/M.A.Sc Environmental Engineering/Research/Projects/Outputs/WSI_heatmap_per_cpcp.emf"
+  
+# ggsave(file_path,
+#        plot = last_plot(),
+#        dpi = 600,
+#        width = ggwidth,
+#        height = ggheight)
+```
+
+### Additions
+
+#### "No Data" Legend
+
+```{r fig.width = 22, fig.height = 14}
+plot <- heatmap_plot +
+  geom_point(
+    aes(colour = "NA"),
+    shape = 22
+    ) +
+  scale_color_manual(
+    name = NULL,
+    values = c("NA" = "transparent"),
+    labels = "No data"
+    ) +
+  # Change the legend order
+  guides(
+    fill = guide_colorbar(order = 1, barwidth = 2, barheight = 55),
+    colour = guide_legend(
+      title.theme = element_text(size = 12, 
+                                 face = "bold", 
+                                 vjust = -0.5),
+      order = 2,
+      override.aes = list(
+        colour = "black", 
+        fill = "gray70",
+        size = 10
+        )
+      )
+    ) +
+  theme(
+    legend.margin = margin(-10, 0, 0, 0)
+    )
+  
+plot
+
+  # ggsave(file_path,
+  #        plot = last_plot(),
+  #        dpi = 600,
+  #        width = ggwidth,
+  #        height = ggheight)
+```
